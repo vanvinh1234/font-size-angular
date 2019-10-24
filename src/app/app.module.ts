@@ -3,10 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+// @ts-ignore
+import { FontSizeEditorComponent } from './font-size-editor/font-size-editor.component';
+import { StaffNameComponent } from './staff-name/staff-name.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FontSizeEditorComponent,
+    StaffNameComponent
   ],
   imports: [
     BrowserModule,

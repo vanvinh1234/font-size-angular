@@ -1,0 +1,12 @@
+<h2>Font Size Editor</h2>
+<div>
+  <label>Enter font size</label>
+  <input type="number" [value]="fontSize" (change)="onChange($event.target.value)">
+</div>
+<p class="output" [style.fontSize.px]="fontSize">
+  ศาสตราจารย์ Duong Quang Trung - มหาวิทยาลัย Belfast (สหราชอาณาจักร) ได้รับเกียรติให้รับรางวัล Best Science
+  Research Award (Best Paper Award) สำหรับการใช้ "ปัญญาประดิษฐ์และการเพิ่มประสิทธิภาพ" ในแบบเรียลไทม์สำหรับเครือข่าย 5G”
+  ในการประชุม Ieee Globecom 2019 ในฮาวายสหรัฐอเมริกา -
+  ซึ่งเป็นการประชุมที่เก่าแก่และมีชื่อเสียงที่สุดในโลกของอุตสาหกรรมโทรคมนาคม
+</p>
+<h2 [style.fontSize.px]="fontSize">Hello Nam</h2>
